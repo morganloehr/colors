@@ -3,7 +3,7 @@
 /* app css stylesheet */
 
 .container {
-	margin: 60px auto 60px; auto;;
+	margin: 40px auto 60px; auto;;
 }
 
 .center {
@@ -85,6 +85,12 @@ input{
 	color:#241478;
 }
 
+/* SHARE */
+
+.share{
+	text-align: center;
+	margin: 15px;
+}
 
 /* PLACEHOLDER */
 
