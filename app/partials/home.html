@@ -1,0 +1,15 @@
+<div class="container">
+	<div class="row-fluid">
+		<div class="span12 center form">
+			<h1>Words = <span id="red">C</span><span id="orange">O</span><span id="yellow">L</span><span id="green">O</span><span id="blue">R</span><span id="red">S</span></h1>
+			<input ng-change="getColors()" type="text" class="input-large" placeholder="e.g. Taco" ng-model="searchWord" />
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span4" ng-repeat="color in colors">
+			<div class="swatch" style=" background-color:#{{ color }}"></div>
+			<div class="center hex top" style="border: 2px solid #{{ color }};"><p>#{{ color }}</p></div>
+		</div>
+	</div>
+</div>
+
